@@ -37,20 +37,20 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-slate-400">
             {business.phones.map((p) => (
               <li key={p.value}>
-                <a href={`tel:${p.value}`} className="flex items-center gap-2 hover:text-cyan focus-ring rounded-md">
+                <Link href={`tel:${p.value}`} className="flex items-center gap-2 hover:text-cyan focus-ring rounded-md">
                   <Phone className="h-4 w-4" /> {p.value}
-                </a>
+                </Link>
               </li>
             ))}
             <li>
-              
+              <Link
                 href={business.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-cyan focus-ring rounded-md"
               >
                 <MessageCircle className="h-4 w-4" /> WhatsApp
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -71,7 +71,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Follow Us</h3>
           <div className="flex gap-3">
-            
+            <Link
               href={business.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -79,29 +79,29 @@ export default function Footer() {
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring"
             >
               <MessageCircle className="h-4 w-4 text-white" />
-            </a>
+            </Link>
             {socials.facebookUrl ? (
-              <a href={socials.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
+              <Link href={socials.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
                 <Facebook className="h-4 w-4 text-white" />
-              </a>
+              </Link>
             ) : (
               <span title="Facebook link coming soon" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 opacity-40">
                 <Facebook className="h-4 w-4 text-white" />
               </span>
             )}
             {socials.tiktokUrl ? (
-              <a href={socials.tiktokUrl} target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
+              <Link href={socials.tiktokUrl} target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
                 <Music2 className="h-4 w-4 text-white" />
-              </a>
+              </Link>
             ) : (
               <span title="TikTok link coming soon" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 opacity-40">
                 <Music2 className="h-4 w-4 text-white" />
               </span>
             )}
             {socials.telegramUrl ? (
-              <a href={socials.telegramUrl} target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
+              <Link href={socials.telegramUrl} target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-cyan focus-ring">
                 <Send className="h-4 w-4 text-white" />
-              </a>
+              </Link>
             ) : (
               <span title="Telegram link coming soon" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 border border-white/10 opacity-40">
                 <Send className="h-4 w-4 text-white" />
