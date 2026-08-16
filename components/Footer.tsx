@@ -21,12 +21,12 @@ export default function Footer() {
           <div className="flex items-center gap-2 mb-3">
             <Image
               src="/images/haniff-logo.png"
-              alt="HANIFF Printing logo"
+              alt="HANIF Printing logo"
               width={36}
               height={36}
               className="h-9 w-9 object-contain"
             />
-            <span className="font-bold text-white">HANIFF PRINTING</span>
+            <span className="font-bold text-white">HANIF PRINTING</span>
           </div>
           <p className="text-sm text-slate-400">{business.tagline}</p>
           <p className="text-sm text-slate-500 mt-2">{business.addressLine}</p>
@@ -112,7 +112,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10 py-5 text-center text-xs text-slate-500">
-        © {year} HANIFF PRINTING. All rights reserved.
+        © {year} HANIF PRINTING. All rights reserved.
       </div>
     </footer>
   );
