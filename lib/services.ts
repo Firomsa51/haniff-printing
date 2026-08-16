@@ -4,11 +4,12 @@ export const services: Service[] = [
   { slug: "graphics-design", name: "Graphics Design", category: "Design", icon: "PenTool", description: "Custom graphic design for logos, adverts, and branded visuals.", image: "/images/services/graphics-design.jpg" },
   { slug: "branding-design-print", name: "Branding Design & Print", category: "Design", icon: "Sparkles", description: "Complete brand identity design and printed brand materials.", image: "/images/services/branding-design-print.jpg" },
   { slug: "book-cover-design-print", name: "Book Cover Design & Print", category: "Design", icon: "BookOpen", description: "Professional book cover design and printing.", image: "/images/services/book-cover-design-print.jpg" },
+  { slug: "certificate-design-print", name: "Certificate Design & Print", category: "Design", icon: "Award", description: "Professional certificate design and printing for institutions, events, and organizations.", image: "/images/services/certificate-design-print.jpg" },
 
   { slug: "banner-design-print", name: "Banner Design & Print", category: "Banners & Signage", icon: "Flag", description: "Eye-catching banners designed and printed for any occasion.", image: "/images/services/banner-design-print.jpg" },
   { slug: "roll-up-banner", name: "Roll-Up Banner", category: "Banners & Signage", icon: "PanelBottom", description: "Portable roll-up banners for events, expos, and shops.", image: "/images/services/roll-up-banner.jpg" },
   { slug: "billboard", name: "Billboard Design, Print & Advertising", category: "Banners & Signage", icon: "Building2", description: "Large-scale billboard design, printing, and advertising support.", image: "/images/services/billboard.jpg" },
-  { slug: "large-format-print", name: "Large Format Print", category: "Banners & Signage", icon: "Maximize", description: "High-quality large format printing for big visual impact.", image: "/images/services/large-format-print.jpg" },
+  { slug: "large-format-print", name: "Large Format Print", category: "Banners & Signage", icon: "Maximize", description: "High-quality large format printing for big visual impact, including vehicle branding.", image: "/images/services/large-format-print.jpg" },
 
   { slug: "flyer-design-print", name: "Flyer Design & Print", category: "Marketing Print", icon: "FileText", description: "Attractive flyers designed and printed for promotions.", image: "/images/services/flyer-design-print.jpg" },
   { slug: "poster-design-print", name: "Poster Design & Print", category: "Marketing Print", icon: "Image", description: "Bold poster design and printing for events and campaigns.", image: "/images/services/poster-design-print.jpg" },
