@@ -4,6 +4,7 @@ export interface Service {
   category: string;
   description: string;
   icon: string; // lucide icon name
+  image?: string; // optional path to real photo in /public/images/services/
 }
 
 export interface ServiceCategory {
