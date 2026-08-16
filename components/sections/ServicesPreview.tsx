@@ -12,7 +12,7 @@ export default function ServicesPreview() {
         <SectionHeading
           eyebrow="What We Do"
           title="Our Printing & Design Services"
-          subtitle="From business branding to large-scale advertising, HANIFF Printing covers a wide range of professional printing needs."
+          subtitle="From business branding to large-scale advertising, HANIF Printing covers a wide range of professional printing needs."
         />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {featured.map((s) => (
