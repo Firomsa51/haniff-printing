@@ -12,7 +12,7 @@ interface QuotePayload {
 
 export function buildQuoteMessage(data: QuotePayload): string {
   const lines = [
-    "Hello HANIFF Printing,",
+    "Hello HANIF Printing,",
     "I would like to request a quotation.",
     "",
     `Name: ${data.name || "-"}`,
