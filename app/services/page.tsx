@@ -5,9 +5,9 @@ import ServiceCard from "@/components/sections/ServiceCard";
 import { serviceCategories } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Services | HANIFF Printing",
+  title: "Services | HANIF Printing",
   description:
-    "Explore HANIFF Printing's full range of services: graphics design, banners, business cards, T-shirts, mugs, ID cards, large format printing and more in Harar.",
+    "Explore HANIF Printing's full range of services: graphics design, banners, business cards, T-shirts, mugs, ID cards, large format printing and more in Harar.",
 };
 
 export default function ServicesPage() {
@@ -17,7 +17,7 @@ export default function ServicesPage() {
         <SectionHeading
           eyebrow="Services"
           title="All Printing & Design Services"
-          subtitle="Everything HANIFF Printing offers, organized by category. Tap any service to request a quote."
+          subtitle="Everything HANIF Printing offers, organized by category. Tap any service to request a quote."
           center
         />
         <div className="space-y-16">
