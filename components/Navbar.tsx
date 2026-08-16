@@ -38,14 +38,14 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 focus-ring rounded-md">
           <Image
             src="/images/haniff-logo.png"
-            alt="HANIFF Printing logo"
+            alt="HANIF Printing logo"
             width={40}
             height={40}
             priority
             className="h-10 w-10 object-contain"
           />
           <span className="text-lg font-bold text-white tracking-wide">
-            HANIFF <span className="gradient-text">PRINTING</span>
+            HANIF <span className="gradient-text">PRINTING</span>
           </span>
         </Link>
 
