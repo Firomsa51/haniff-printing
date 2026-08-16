@@ -16,8 +16,9 @@ export interface PortfolioItem {
   id: string;
   title: string;
   category: string;
-  image: string;
+  image: string; // thumbnail/cover — always required, even for videos
   description: string;
+  video?: string; // optional path to a video in /public/images/portfolio/ — if set, shows a play button and plays this video
 }
 
 export interface Promotion {
