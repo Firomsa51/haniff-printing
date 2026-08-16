@@ -1,5 +1,5 @@
 export const business = {
-  name: "HANIFF PRINTING",
+  name: "HANIF PRINTING",
   tagline: "Professional Printing & Creative Design",
   description:
     "Creative design, professional printing, and customized branding solutions for businesses, organizations, events, and individuals.",
