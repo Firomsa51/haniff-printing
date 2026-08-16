@@ -1,6 +1,6 @@
 import { PortfolioItem } from "@/types";
 
-// Add more real HANIFF Printing project photos here after placing the image
+// Add more real HANIF Printing project photos/videos here after placing the
 // files inside /public/images/portfolio/. Nothing else needs to change.
 
 export const portfolioItems: PortfolioItem[] = [
@@ -17,6 +17,14 @@ export const portfolioItems: PortfolioItem[] = [
     category: "Custom Merchandise",
     image: "/images/portfolio/safety-vest-branding.jpg",
     description: "Custom branded safety vest printing for workplace and event use.",
+  },
+  {
+    id: "3",
+    title: "Custom Text Banner Print",
+    category: "Banners",
+    image: "/images/portfolio/custom-banner-print-thumb.jpg",
+    video: "/images/portfolio/custom-banner-print.mp4",
+    description: "Custom Afaan Oromo text banner designed and printed by HANIF Printing.",
   },
 ];
 
