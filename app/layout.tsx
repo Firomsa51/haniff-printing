@@ -7,24 +7,26 @@ import StructuredData from "@/components/StructuredData";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://haniffprinting.com"),
-  title: "HANIFF Printing | Professional Printing & Graphic Design in Harar",
+  title: "HANIF Printing | Professional Printing & Graphic Design in Harar",
   description:
-    "HANIFF Printing provides professional printing, graphic design, branding, banners, business cards, T-shirts, large format printing and more in Harar, Ethiopia.",
-  icons: { icon: "/favicon.ico" },
+    "HANIF Printing provides professional printing, graphic design, branding, banners, business cards, T-shirts, large format printing and more in Harar, Ethiopia.",
+  icons: { icon: "/images/haniff-logo.png" },
   openGraph: {
-    title: "HANIFF Printing | Professional Printing & Graphic Design in Harar",
+    title: "HANIF Printing | Professional Printing & Graphic Design in Harar",
     description:
-      "HANIFF Printing provides professional printing, graphic design, branding, banners, business cards, T-shirts, large format printing and more in Harar, Ethiopia.",
+      "HANIF Printing provides professional printing, graphic design, branding, banners, business cards, T-shirts, large format printing and more in Harar, Ethiopia.",
     url: "https://haniffprinting.com",
-    siteName: "HANIFF Printing",
+    siteName: "HANIF Printing",
+    images: [{ url: "/images/haniff-logo.png", width: 1200, height: 1200, alt: "HANIF Printing" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "HANIFF Printing | Professional Printing & Graphic Design in Harar",
+    title: "HANIF Printing | Professional Printing & Graphic Design in Harar",
     description:
       "Professional printing, graphic design, and branding services in Harar, Ethiopia.",
+    images: ["/images/haniff-logo.png"],
   },
 };
 
