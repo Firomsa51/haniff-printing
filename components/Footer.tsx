@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Phone, MessageCircle, Facebook, Send, Music2, Printer } from "lucide-react";
+import Image from "next/image";
+import { Phone, MessageCircle, Facebook, Send, Music2 } from "lucide-react";
 import { business } from "@/lib/business";
 import { socials } from "@/lib/socials";
 
@@ -18,9 +19,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-electric via-purple to-magenta">
-              <Printer className="h-5 w-5 text-white" />
-            </span>
+            <Image
+              src="/images/haniff-logo.png"
+              alt="HANIFF Printing logo"
+              width={36}
+              height={36}
+              className="h-9 w-9 object-contain"
+            />
             <span className="font-bold text-white">HANIFF PRINTING</span>
           </div>
           <p className="text-sm text-slate-400">{business.tagline}</p>
