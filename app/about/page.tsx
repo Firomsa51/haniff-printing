@@ -5,9 +5,9 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { business } from "@/lib/business";
 
 export const metadata: Metadata = {
-  title: "About Us | HANIFF Printing",
+  title: "About Us | HANIF Printing",
   description:
-    "HANIFF Printing is a printing, graphic design and branding business based in Harar, Ethiopia, focused on quality, creativity, and customer-focused service.",
+    "HANIF Printing is a printing, graphic design and branding business based in Harar, Ethiopia, focused on quality, creativity, and customer-focused service.",
 };
 
 const focusPoints = [
@@ -25,7 +25,7 @@ export default function AboutPage() {
         <SectionHeading eyebrow="About Us" title={`About ${business.name}`} center />
         <div className="mx-auto max-w-3xl space-y-6 text-slate-300 leading-relaxed">
           <p>
-            HANIFF Printing is a printing, graphic design, and branding business based in{" "}
+            HANIF Printing is a printing, graphic design, and branding business based in{" "}
             {business.city}, {business.country}, located near {business.landmark}. We work with
             businesses, organizations, event organizers, and individuals who need reliable,
             professional print and design solutions.
