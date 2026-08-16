@@ -15,7 +15,7 @@ export default function WhyHaniff() {
   return (
     <section className="py-16 sm:py-24 bg-navy-900/60">
       <Container>
-        <SectionHeading eyebrow="Why HANIFF" title="Why Choose HANIFF Printing" center />
+        <SectionHeading eyebrow="Why HANIF" title="Why Choose HANIF Printing" center />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {points.map((p) => (
             <div key={p.title} className="card-surface rounded-2xl p-6">
