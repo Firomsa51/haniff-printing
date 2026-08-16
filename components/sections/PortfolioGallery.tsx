@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
-import { X, ImageOff } from "lucide-react";
+import { X, ImageOff, Play } from "lucide-react";
 import { portfolioItems, portfolioCategories } from "@/lib/portfolio";
 import { PortfolioItem } from "@/types";
 
@@ -22,7 +22,7 @@ export default function PortfolioGallery() {
         <ImageOff className="mx-auto h-10 w-10 text-slate-500" />
         <h3 className="mt-4 text-white font-semibold">Portfolio Coming Soon</h3>
         <p className="mt-2 text-slate-400 text-sm max-w-md mx-auto">
-          Real HANIFF Printing project photos will appear here once uploaded. Contact us on WhatsApp to see samples in the meantime.
+          Real HANIF Printing project photos will appear here once uploaded. Contact us on WhatsApp to see samples in the meantime.
         </p>
       </div>
     );
@@ -62,6 +62,13 @@ export default function PortfolioGallery() {
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 33vw"
               />
+              {item.video && (
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90">
+                    <Play className="h-5 w-5 text-navy-950 ml-0.5" fill="currentColor" />
+                  </span>
+                </div>
+              )}
             </div>
             <div className="p-4 bg-navy-900/80">
               <h3 className="font-semibold text-white text-sm">{item.title}</h3>
@@ -86,9 +93,19 @@ export default function PortfolioGallery() {
             <X className="h-6 w-6" />
           </button>
           <div className="max-w-3xl w-full" onClick={(e) => e.stopPropagation()}>
-            <div className="relative w-full aspect-[4/3]">
-              <Image src={lightbox.image} alt={lightbox.title} fill className="object-contain" />
-            </div>
+            {lightbox.video ? (
+              <video
+                src={lightbox.video}
+                controls
+                autoPlay
+                playsInline
+                className="w-full aspect-[4/3] rounded-lg bg-black"
+              />
+            ) : (
+              <div className="relative w-full aspect-[4/3]">
+                <Image src={lightbox.image} alt={lightbox.title} fill className="object-contain" />
+              </div>
+            )}
             <div className="mt-4 text-center">
               <h3 className="text-white font-semibold">{lightbox.title}</h3>
               <p className="text-slate-400 text-sm mt-1">{lightbox.description}</p>
