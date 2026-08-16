@@ -11,13 +11,13 @@ export default function PortfolioPreview() {
   return (
     <section className="py-16 sm:py-24">
       <Container>
-        <SectionHeading eyebrow="Our Work" title="Recent Projects" subtitle="A look at real work produced by HANIFF Printing." />
+        <SectionHeading eyebrow="Our Work" title="Recent Projects" subtitle="A look at real work produced by HANIF Printing." />
 
         {items.length === 0 ? (
           <div className="card-surface rounded-2xl p-10 text-center">
             <ImageOff className="mx-auto h-8 w-8 text-slate-500" />
             <p className="mt-4 text-slate-400">
-              Portfolio photos are being added soon. Check back shortly to see real HANIFF Printing projects.
+              Portfolio photos are being added soon. Check back shortly to see real HANIF Printing projects.
             </p>
           </div>
         ) : (
