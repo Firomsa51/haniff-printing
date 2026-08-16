@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, Printer } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { ButtonLink } from "./ui/Button";
 
 const links = [
@@ -35,9 +36,14 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
         <Link href="/" className="flex items-center gap-2 focus-ring rounded-md">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-electric via-purple to-magenta">
-            <Printer className="h-5 w-5 text-white" />
-          </span>
+          <Image
+            src="/images/haniff-logo.png"
+            alt="HANIFF Printing logo"
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-10 object-contain"
+          />
           <span className="text-lg font-bold text-white tracking-wide">
             HANIFF <span className="gradient-text">PRINTING</span>
           </span>
