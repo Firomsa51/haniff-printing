@@ -8,9 +8,9 @@ import QuoteForm from "@/components/sections/QuoteForm";
 import { business, getMapsUrl } from "@/lib/business";
 
 export const metadata: Metadata = {
-  title: "Contact & Get a Quote | HANIFF Printing",
+  title: "Contact & Get a Quote | HANIF Printing",
   description:
-    "Contact HANIFF Printing in Harar, Ethiopia. Call, WhatsApp, or send a quotation request for printing, design, and branding services.",
+    "Contact HANIF Printing in Harar, Ethiopia. Call, WhatsApp, or send a quotation request for printing, design, and branding services.",
 };
 
 export default function ContactPage() {
