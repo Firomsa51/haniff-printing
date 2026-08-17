@@ -26,6 +26,14 @@ export const portfolioItems: PortfolioItem[] = [
     video: "/images/portfolio/custom-banner-print.mp4",
     description: "Custom Afaan Oromo text banner designed and printed by HANIF Printing.",
   },
+  {
+    id: "4",
+    title: "Custom Cap Printing",
+    category: "Custom Merchandise",
+    image: "/images/portfolio/cap-print.jpg",
+    video: "/images/portfolio/cap-print.mp4",
+    description: "Custom printed caps produced by HANIF Printing.",
+  },
 ];
 
 export const portfolioCategories = Array.from(
