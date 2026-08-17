@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.hanifprinting.app",
+    "sha256_cert_fingerprints": ["55:D0:21:42:81:1A:6D:A4:CE:44:A3:41:22:51:47:07:4B:F9:D8:4B:CF:B3:A3:2C:D0:8E:18:93:7B:BE:79:20"]
+  }
+}]
