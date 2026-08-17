@@ -16,8 +16,6 @@ export default function manifest(): MetadataRoute.Manifest {
       { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
       { src: "/icons/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
-    // @ts-expect-error - "serviceworker" is a valid Web App Manifest member
-    // (see W3C spec) but is not yet included in Next.js's MetadataRoute.Manifest type.
     serviceworker: {
       src: "/sw.js",
       scope: "/",
