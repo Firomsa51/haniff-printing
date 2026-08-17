@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
+    id: "/",
     name: "Hanif Printing",
     short_name: "Hanif Printing",
     description: "Professional Printing & Creative Design Services in Harar, Ethiopia.",
