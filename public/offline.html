@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>You're offline | Hanif Printing</title>
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #05070f;
+    color: #f5f7fa;
+    font-family: system-ui, -apple-system, sans-serif;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+  }
+  img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0 0 12px;
+  }
+  p {
+    color: #94a3b8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 24px;
+  }
+  button {
+    background: linear-gradient(90deg, #3b82f6, #a855f7, #ec4899);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="/icons/icon-192.png" alt="Hanif Printing" />
+    <h1>You're offline</h1>
+    <p>Some Hanif Printing content may not be available until you reconnect.</p>
+    <button onclick="window.location.reload()">Try Again</button>
+  </div>
+</body>
+</html>
